@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgba(159, 2, 2, 0.499);
+    background-color: rgba(159, 2, 2, 0.559);
     padding: 30px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -101,7 +101,7 @@ section p {
 }
 
 section {
-    padding: 50px;
+    padding: 100px;
 }
 
 #contact .container {
