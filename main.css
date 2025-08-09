@@ -5,21 +5,22 @@
 }
 
 header {
-    background-color: rgba(159, 2, 2, 0.559);
+    background-color: #9f0202;
     padding: 30px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     color: rgb(255, 255, 255);
 }
 
 body {
-    background-image: url(./imagens/background.jpg);
+
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
+    background-color: rgb(25, 25, 25);
 }
 
-header .container,
+.container-header,
 section .container {
     display: flex;
     align-items: center;
@@ -49,9 +50,9 @@ header nav li {
     font-family: "Tektur", sans-serif;
 }
 
-h2,
+
 h3 {
-    background-color: rgba(159, 2, 2, 0.559);
+    background-color: #9f0202;
     border-radius: 25px;
     color: #fff;
     text-align: center;
@@ -71,16 +72,59 @@ header nav li a {
     text-decoration: none;
 }
 
-.container img, .container-etapas img {
+span {
+    background-color: #9f0202;
+    padding: 2px;
+    display: block; 
+    box-shadow: 0 0 40px #9f0202;
+    margin-top: px;
+}
+
+.container div,
+.container-etapas div {
+    background-color: #ffffff12;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 0 20px #ffffff2a;
+    border-color: #ffffff2a;
+}
+
+.container img {
     border-radius: 4%;
+    margin: 48px;
+}
+
+#circuits img,
+#builders img {
+    border-radius: 4%;
+    margin: 48px;
 }
 
 .site-front {
     margin-right: 32px;
     margin-left: 32px;
-    box-shadow: 0 0 30px rgba(74, 74, 74, 0.74);
-    border-style:inset;
-    border-color: rgba(143, 143, 143, 0.602);
+    box-shadow: 0 0 20px #ffffff2a;
+    border-color: #ffffff2a;
+}
+
+#about, #circuits, #qualifiny,#builders, #teams .container div {
+    text-align: center;
+}
+
+button {
+    background-color: #9f0202;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 18px;
+    display: inline-block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 250px;
+}
+
+button:hover {
+    background-color:  rgb(255, 73, 73);
 }
 
 section p {
@@ -138,7 +182,7 @@ section h3 {
 
 
 form button {
-    background-color:rgba(159, 2, 2, 0.559);
+    background-color:#9f0202;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -149,11 +193,11 @@ form button:hover {
 }
 
 input:focus, textarea:focus {
-    outline-color: rgb(159, 2, 2);
+    outline-color: #9f0202;
 }
 
 input:focus, textarea:focus {
-    outline-color:rgb(159, 2, 2);
+    outline-color:#9f0202;
 }
 
 .social-links img {
@@ -194,7 +238,7 @@ footer {
 }
 
 .direitos-reservados {
-    background-color: rgba(159, 2, 2, 0.559);
+    background-color: #9f0202;
     padding: 10px;
     width: 100%;
 }
@@ -202,3 +246,4 @@ footer {
 footer img {
     height: 16px;
 }
+

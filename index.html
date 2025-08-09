@@ -9,11 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container-header">
             <h1><img src="./imagens/logo f1.png" alt="Logo f1">Mania</h1>
             <nav>
                 <ul>
@@ -36,11 +38,17 @@
             </nav>
         </div>
     </header>
+    <div id="carousel-imagens">
+        <img src="./imagens/1.png" alt="Panorâma de Mônaco">
+        <img src="./imagens/2.png" alt="Carro da escuderia Sauber/Audi">
+        <img src="./imagens/3.png" alt="Carro da escuderia Red Bull Racing">
+    </div>
+    <span></span>
     <section id="about">
         <div class="container">
             <img class="site-front" src="./imagens/about.jpg" alt="Foto de todos os pilotos do grid 2025" />
             <div>
-                <h2>Tudo Sobre Formula 1</h2>
+                <button type="button">Sobre nós</button>
                 <p>
                     O F1-Mania é um portal dedicado aos apaixonados por Fórmula 1, trazendo conteúdos atualizados sobre cada aspecto da categoria. Nossa missão é oferecer informações precisas, análises detalhadas e coberturas completas das corridas, para que os fãs estejam sempre por dentro de tudo o que acontece no mundo da F1.
                 </p>
@@ -57,7 +65,7 @@
         <div class="container-etapas">
             <img class="site-front" src="./imagens/circuitos.jpg" alt="Circuitos" />
             <div>
-                <h2>Circuitos</h2>
+                <button type="button">Circuitos</button>
                 <p>
                     A Fórmula 1 percorre alguns dos circuitos mais lendários do automobilismo, passando por pistas que testam ao máximo a habilidade dos pilotos e a eficiência dos carros. De Mônaco a Monza, cada traçado traz desafios únicos, como curvas de alta velocidade, retas longas e condições climáticas imprevisíveis.
                 </p>
@@ -76,7 +84,7 @@
         <div class="container">
             <img class="site-front" src="./imagens/podium.jpg" alt="Podium" />
             <div>
-                <h2>classificação</h2>
+                <button type="button">Classificação</button>
                 <p>
                     A luta pelo título de campeão mundial da Fórmula 1 é sempre uma das mais emocionantes do esporte. A cada temporada, pilotos de diferentes equipes entram na disputa para provar quem é o mais rápido e consistente ao longo do ano. Pontuação, vitórias e desempenhos nas pistas determinam o grande vencedor.
                 </p>
@@ -93,7 +101,7 @@
         <div class="container-etapas">
             <img class="site-front" src="./imagens/construtores.jpg" alt="pit stop da MC larem" />
             <div>
-                <h2>Construtores</h2>
+                <button type="button">Construtores</button>
                 <p>
                     Além do campeonato de pilotos, a Fórmula 1 também premia as equipes que conseguem os melhores desempenhos ao longo da temporada. O Campeonato de Construtores leva em consideração os pontos somados pelos dois pilotos de cada escuderia, destacando a importância do trabalho em equipe.
                 </p>
@@ -110,7 +118,7 @@
         <div class="container">
             <img class="site-front" src="./imagens/f1teams.jpg" alt="Foto de todos os pilotos do grid 2025" />
             <div>
-                <h2>Equipes</h2>
+                <button type="button">Equipes</button>
                 <p>
                     A Fórmula 1 é composta por algumas das equipes mais icônicas do automobilismo, cada uma com sua própria história, estilo e filosofia de corrida. De escuderias tradicionais, como Ferrari e McLaren, a equipes mais jovens e inovadoras, todas buscam conquistar vitórias e desafiar os limites da tecnologia.
                 </p>
@@ -173,5 +181,17 @@
             </p>
         </div>
     </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#carousel-imagens').slick( {
+                autoplay: true
+            })
+        })
+
+    </script>
 </body>
 </html>
