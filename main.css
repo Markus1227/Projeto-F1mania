@@ -10,6 +10,10 @@ header {
     margin-top: 5px;
     margin-bottom: 0px;
     color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 body {
@@ -60,16 +64,30 @@ h3 {
     margin-bottom: 10px;;
 }
 
-
-header nav li {
-    display: inline;
-    margin-left: 16px;
-    font-size:large;
+nav {
+    background-color: #9f0202;
+    padding: 16px 0;
 }
 
-header nav li a {
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav li a  {
     color: #fff;
     text-decoration: none;
+    padding: 10px;
+}
+
+header nav li a:hover {
+    color: rgb(0, 0, 0);
+    margin-bottom: 400px;
 }
 
 span {
