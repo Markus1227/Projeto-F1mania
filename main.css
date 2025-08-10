@@ -76,8 +76,7 @@ span {
     background-color: #9f0202;
     padding: 2px;
     display: block; 
-    box-shadow: 0 0 40px #9f0202;
-    margin-top: px;
+    box-shadow: 0 0 40px #dfdfdf;
 }
 
 .container div,
@@ -219,8 +218,9 @@ input:focus, textarea:focus {
 }
 
 
-#contact .container h2{
+#contact h2{
     background: none;
+    margin-bottom: 16px;
 
 }
 
@@ -230,7 +230,7 @@ input:focus, textarea:focus {
 }
 
 footer {
-    background-color:rgba(0, 0, 0, 0.846);
+    background-color:rgba(0, 0, 0, 0.476);
     color:#fff;
     padding: 10px;
     align-items: center;

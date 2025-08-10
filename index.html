@@ -132,18 +132,19 @@
         </div>
     </section>
 </body>
-<footer class="container-footer">
-            <section id="contact">
-        <div class="container">
-            <h2>     Contato:</h2>
+<span></span>
+<footer>
+    <section id="contact">
+        <div>
+            <h2>Contato:</h2>
             <div class="contact-methods">
                 <div>
                     <h3>Fale conosco</h3>
                     <form>
-                        <input type="text" placeholder="Seu nome" required />
-                        <input type="email" placeholder="Seu e-mail" required />
-                        <input type="tel" placeholder="Seu telefone (opcional)" />
-                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <input type="text" name="name" placeholder="Seu nome"/>
+                        <input type="email" name="email" placeholder="Seu e-mail"/>
+                        <input type="tel" name="tel" id="tel-number" name="tel-number"/>
+                        <textarea placeholder="Sua mensagem" name="message"></textarea>
                         <button type="submit">Enviar</button>
                     </form>
         </div>
@@ -167,7 +168,7 @@
                 </li>
             </ul>
         </div>
-        <div>
+        <div class="adress">
             <h3>Venha até nós</h3>
             <p>
                 Rua JavaScript nº 124, Vila HTML - São Paulo - SP
@@ -185,13 +186,9 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#carousel-imagens').slick( {
-                autoplay: true
-            })
-        })
-
-    </script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
