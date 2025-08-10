@@ -6,7 +6,7 @@
 
 header {
     background-color: #9f0202;
-    padding: 30px;
+    padding: 15px;
     margin-top: 5px;
     margin-bottom: 0px;
     color: rgb(255, 255, 255);
@@ -102,8 +102,8 @@ span {
     background-color: #ffffff12;
     border-radius: 12px;
     padding: 15px;
-    box-shadow: 0 0 20px #ffffff2a;
-    border-color: #ffffff2a;
+    box-shadow: 0 0 20px #ffffff1c;
+    border-color: #1a1919fb;
 }
 
 .container img {
@@ -120,8 +120,7 @@ span {
 .site-front {
     margin-right: 32px;
     margin-left: 32px;
-    box-shadow: 0 0 20px #ffffff2a;
-    border-color: #ffffff2a;
+    box-shadow: 0 0 45px #000000f7;
 }
 
 #about, #circuits, #qualifiny,#builders, #teams .container div {
@@ -140,9 +139,7 @@ button {
     width: 250px;
 }
 
-button:hover {
-    background-color:  rgb(255, 73, 73);
-}
+
 
 section p {
     margin-bottom: 8px;
@@ -167,8 +164,8 @@ section {
     padding: 100px;
 }
 
-#contact .container {
-    display: block;
+#carousel-imagens {
+margin-bottom: 60px;
 }
 
 
